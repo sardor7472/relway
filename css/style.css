@@ -1,0 +1,370 @@
+@font-face{
+    font-family: "RobotoSlab";
+    src : url("../fonts/RobotoSlab/RobotoSlab-Regular.ttf") format('ttf');
+}
+/************
+**  clear css**
+*********/
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin-bottom: 0;
+}
+a {
+    color: inherit;
+}
+
+.cur-p {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4 , h5, h6{
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
+}
+h4 {
+    font-size: 18px;
+}
+
+
+.txt-editor ul{
+    list-style: initial;
+    padding-left: 10px;
+
+}
+.txt-editor h1,
+.txt-editor h2,
+.txt-editor h3,
+.txt-editor h4,
+.txt-editor h5,
+.txt-editor h6 {
+    margin-bottom: 15px;
+}
+.txt-editor p {
+    margin-bottom: 10px;
+}
+img {
+    max-width: 100%;
+
+}
+/*header*/
+.bg-cover {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.header-btn-booking-wrap {
+    text-align: center;
+    transform: translateY(-50%);
+    z-index: 1;
+    position: relative;
+}
+
+/*******| start body |************/
+body {
+    font-family: 'RobotoSlab', sans-serif;
+    font-size: 16px;
+    color: #787878;
+    line-height: 30px;
+}
+/******* | end body |***********/
+
+/**********| About |***********/
+.site-header-banner {
+    background-image: url("../img/banner-bg.png");
+    height: 300px;
+}
+.section-text > h4{
+    margin-top: 50px;
+}
+.section{
+    padding: 70px;
+}
+.section img{
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.section-text > p{
+    margin-top: 40px;
+}
+/**********| end About |***********/
+
+/**********| Hotel |***********/
+.container-hotel{
+    padding-bottom: 200px;
+}
+.hotel-img > h4{
+    margin-top: 125px;
+}
+.hotel-img > img{
+    margin-top: 50px ;
+}
+.hotel-text > h4{
+    margin-top: 230px;
+}
+.hotel-btn-wrap{
+    text-align: right;
+    margin-top: 40px;
+}
+.hotel-text-phon{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.hotel-text-phon span{
+    color: #0211bb;
+}
+.hotel-text-phon p{
+    margin-top: 20px;
+}
+.hotel-text-phon:nth-child(2){
+    padding-left: 10px;
+}
+/**********| end Hotel |***********/
+
+/**********| Hotels |***********/
+.hotels-main{
+    padding-bottom: 90px;
+}
+.hotels-main > div{
+    padding: 20px 0;
+}
+.hotels-main > h4{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.description{
+    margin-bottom: 40px;
+}
+.hotels-text{
+    padding-left: 0;
+}
+.hotels-text div > a{
+    color: #2c9f49;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.description{
+    margin-top: 40px;
+}
+.hotels-icon{
+    transform: rotate(-90deg);
+    color: #2c9f49;
+}
+.svg svg path{
+    fill: #03932b;
+}
+.svg-icon{
+    margin-bottom: 10px;
+}
+/**********| end Hotels |***********/
+
+/**********| News |***********/
+.news-main{
+    padding-bottom: 90px;
+}
+
+/*.news-main .row +  .row {    news-main .row dan keyin yana row kelsa 40px joy tashla*/
+    /*margin-top: 40px;*/
+/*}*/
+.news-main > div{
+    margin-top: 40px;
+}
+.news-date{
+    color:#03932b;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+}
+.description{
+    color: #787878;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+}
+.news-text-date{
+    margin-top: 30px;
+}
+.news-text-date > h4{
+    margin-top: 12px;
+}
+.news-text-date > p{
+    margin-top: 20px;
+}
+.news-img{
+    height: 200px;
+    width: 240px;
+}
+.news-main-footer{
+    text-align: center;
+    color: #03932b
+}
+.news-main-footer svg path{
+    fill: #03932b
+}
+/**********| end News |***********/
+
+/**********|  Tourse |***********/
+.tourse-main{
+    padding-bottom: 160px;
+}
+.tourse-main-dunyo{
+    display: flex;
+    color: #0211bb;
+    margin-top: 40px;
+}
+.tourse-main-dunyo > p{
+    transform: translateX(280px);
+}
+td{
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    font-family: Proxima Nova;
+}
+.tourse-table-dunyo{
+    margin-top: 40px;
+}
+.tourse-main-dunyo svg path{
+    fill: #0539bb
+}
+/**********| end Tourse |***********/
+
+/**********| New |***********/
+.new-main p{
+    line-height: 25px;
+}
+.new-top-date > span{
+    color: #03932b;
+}
+.new-top > img {
+    width: 960px;
+    height: 340px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.new-top .new-top-date{
+    margin-top: 20px;
+}
+.new-top-text{
+    margin-top: 40px;
+    padding-right: 150px;
+}
+.new-footer > img {
+    width: 485px;
+    height: 300px;
+    border-radius: 20px;
+}
+.new-footer{
+    display: flex;
+}
+.new-img{
+    margin-right: 40px;
+}
+.new-footer > p{
+    padding-right: 110px;
+
+}
+.new-footer{
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+.new-footer-text{
+    padding-right: 150px;
+}
+/**********| end New |***********/
+
+/**********| Tour |***********/
+.tour-main p{
+    line-height: 25px;
+    margin-top: 50px;
+}
+.tour-main-img{
+    display: flex;
+}
+.tour-main-img > img{
+    border-radius: 19px;
+}
+.tour-main-img-text{
+    padding-left: 40px;
+}
+.tour-footer-text{
+    padding: 0 0 40px;
+}
+.tour-main-img{
+    margin-top: 40px;
+}
+.tour-btn-wrap{
+    text-align: center;
+    margin-top: 40px;
+}
+/**********| end Tour |***********/
+
+/**********| Transport |***********/
+.trans-main{
+    margin-top: 40px;
+    display: flex;
+
+}
+.trans-main-text > p{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.trans-main > img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover;*/
+}
+.trans-btn-wrap{
+    text-align: center;
+    margin-top: 40px;
+}
+/**********| end Transport |***********/
+
+/**********| Contacts |***********/
+.contacts-main > img{
+    margin-top: 50px;
+    width: 360px;
+    height: 360px;
+}
+.contacts-main{
+    padding-bottom: 90px;
+    display: flex;
+}
+.contacts-text{
+    margin-top: 85px;
+    padding-left: 45px;
+    font-family: Proxima Nova;
+}
+.contacts-text span{
+    color:#0211bb;
+}
+.contacts-main-wrap{
+    margin-top: 30px;
+}
+.contact{
+    margin-top: 40px;
+}
+.contacts-text div > p{
+    margin-top: 20px;
+}
+.contact > p{
+    font-size: 18px;
+}
+.contacts-main-wrap p{
+    font-size: 16px;
+}
+/**********| end Contacts |***********/
