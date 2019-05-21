@@ -412,6 +412,41 @@ i
 
 
 
+/**********| breadcrumb |***********/
+/**********| Contacts |***********/
+.bread-cr {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bread-cr li {
+    position: relative;
+    cursor: pointer;
+}
+.bread-cr li a {
+    color: #424242;
+}
+
+.bread-cr li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.bread-cr li + li::before {
+    content: '';
+    width: 6px;
+    height: 10px;
+    left: 0;
+    top: 50%;
+    margin-top: -5px;
+    background: url('../img/angle-right-icon.png');
+    position: absolute;
+
+}
+
+.bread-cr li + li{
+    padding-left: 17px;
+}
+/*end breadcrumb*/
 
 
 
