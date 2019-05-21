@@ -120,7 +120,7 @@
     .hotel-img > h4{
         margin-top: 40px;
     }
-    .hotel-text > h4{
+    .hotel-text > h3{
         margin-top: 40px;
     }
     .container-hotel{
@@ -153,7 +153,7 @@
         float: none;
         margin: 0;
     }
-    .tour-main > h4{
+    .tour-main > h2{
         text-align: center;
     }
     .tarns-title{
@@ -182,7 +182,7 @@
 /***********************************************************/
 @media screen and (max-width: 767px) {
 
-    .hotels-main > h4{
+    .hotels-main > h2{
         text-align: center;
     }
     .media-hotels{
@@ -269,11 +269,11 @@
     .contacts-main{
         flex-direction: column;
     }
-    .container-main >h4 {
+    .container-main >h2 {
         text-align: center;
     }
     .contacts-main > img{
-        margin: 20px auto;
+        margin: 50px auto;
     }
     .contacts-text{
         padding: 0;
@@ -297,6 +297,9 @@
         text-align: center;
     }
     .gallery-title > h4{
+        text-align: center;
+    }
+    .gallery-title > h2{
         text-align: center;
     }
     /*max width 767px*/
@@ -358,7 +361,7 @@
     .hotels-main > h4{
         text-align: center;
     }
-    .news-main > h4{
+    .news-main > h2{
         text-align: center;
     }
     .new-top .new-top-date{
@@ -379,12 +382,18 @@
     .news-text-date{
         text-align: center;
     }
+    .contacts-main > img{
+        margin: 50px auto;
+    }
 }
 
 
 /*** max-width 480px */
 /***********************************************************/
 @media screen and (max-width: 480px) {
+    .contacts-main > img{
+        margin: 50px auto;
+    }
     .hotel-img > h4{
         margin-top: 40px;
     }
@@ -419,7 +428,7 @@
         text-align: center;
     }
     .icon1{
-        right: 55%;
+        right: 265px;
     }
     /*max width 480px*/
 

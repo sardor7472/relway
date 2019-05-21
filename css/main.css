@@ -488,9 +488,9 @@ h1 {
   font-size: 2rem;
 }
 
-h2 {
-  font-size: 1.5rem;
-}
+/*h2 {*/
+  /*font-size: 1.5rem;*/
+/*}*/
 
 h3 {
   font-size: 1.3rem;
@@ -1904,7 +1904,8 @@ a img {
 .tour-img > img{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  height: 140px;
+  height: 100%;
+  object-fit: cover;
 }
 .tour-title{
   text-transform: uppercase;
@@ -1930,6 +1931,8 @@ a img {
     line-height: 17px;
     font-size: 24px;
 }
+/*21.05.2019*/
 
-
-
+.owl-carousel img{
+  object-fit: cover;
+}
