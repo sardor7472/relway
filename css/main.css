@@ -497,7 +497,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 h5 {
@@ -685,7 +685,7 @@ a img {
   text-decoration: none;
   text-transform: uppercase;
   display: block;
-  padding: 21px 22px 20px 22px;
+  padding: 20px 18px;
   -webkit-transition: all .2s;
   transition: all .2s;
   font-size: 14px;
@@ -769,13 +769,6 @@ a img {
   width: 292px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-}
-
-.site-header__top .tmenu .logo .home-logo {
-  text-align: center;
-  position: relative;
-  z-index: 20;
-  display: block;
 }
 
 .site-header__top .tmenu .logo .home-logo__name {
@@ -916,12 +909,12 @@ a img {
   transform: rotate(180deg);
 }
 
-.site-header__center {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
+/*.site-header__center {*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
+/*}*/
 
 .site-header__center .head-slider {
   max-width: 1920px;
@@ -1008,9 +1001,9 @@ a img {
   background-color: #fff;
 }
 
-.site-container__main {
-  margin-top: 581px;
-}
+/*.site-container__main {*/
+  /*margin-top: 581px;*/
+/*}*/
 
 .site-container__main .main-body:after {
   content: "";
@@ -1619,7 +1612,7 @@ a img {
 
 .site-container__main .main-body .rside .news__body .pas__body a {
   color: #0211bb;
-  font-style: 18px;
+  font-size: 18px;
   text-transform: uppercase;
   display: block;
   text-decoration: none;
@@ -1646,6 +1639,7 @@ a img {
   width: 80%;
   position: relative;
   margin: 0 auto;
+  margin-bottom: 90px;
 }
 
 .site-container__main .main-body .rside .par__slide a img {
@@ -1841,10 +1835,6 @@ a img {
     box-sizing: border-box;
   }
 
-  .site-header__top .tmenu {
-    padding-left: 0;
-  }
-
   .site-container__main .main-body .lside {
     width: 21.5%;
   }
@@ -1883,14 +1873,6 @@ a img {
   .site-header__center .head-slider .item {
     height: 450px;
   }
-
-  .site-header__center .booking {
-    width: 180px;
-    height: 40px;
-    line-height: 40px;
-    bottom: -20px;
-  }
-
   .site-header__center .booking span {
     margin-right: 15px;
     margin-left: 20px;
@@ -1901,7 +1883,53 @@ a img {
     transform: scale(0.8);
   }
 
-  .site-container__main {
-    margin-top: 350px;
-  }
 }
+
+/*17.05.2019*/
+
+.main-block{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.tour-block{
+  min-height: 300px;
+  width: 270px;
+  border: 1px solid #e0e9f6;
+  border-radius: 15px;
+}
+
+.tour-img > img{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 140px;
+}
+.tour-title{
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.tour-description{
+    margin-top: 20px;
+    line-height: 8px;
+    color: #03932b;
+}
+.tour-body{
+    padding: 0 40px;
+}
+.tour-price{
+    margin-top: 30px;
+    line-height: 8px;
+    color: #424242;
+    margin-bottom: 30px;
+
+}
+.tour-price > span{
+    color: #0211bb;
+    line-height: 17px;
+    font-size: 24px;
+}
+
+
+

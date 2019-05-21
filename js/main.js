@@ -126,4 +126,18 @@ $(function(){
 
 
     });
+
+
+
+	var header = $('.header');
+
+
+	var toggleBtn = $('.toggleBtn'),
+		header = $('.header');
+
+	console.log(toggleBtn)
+
+	$(document).on('click', toggleBtn, function () {
+		header.toggleClass('active')
+	})
 });
