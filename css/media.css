@@ -231,7 +231,16 @@
 /*** max-width 767px */
 /***********************************************************/
 @media screen and (max-width: 767px) {
-
+    .hotel-text-phon{
+        flex-direction: column;
+    }
+    .hotel-text-phon div:last-child{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .bread-cr{
+        justify-content: center;
+    }
     .hotels-main > h2 {
         text-align: center;
     }

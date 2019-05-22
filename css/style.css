@@ -212,6 +212,7 @@ body {
 /*}*/
 .news-main > div{
     margin-top: 40px;
+    cursor: pointer;
 }
 .news-date{
     color:#03932b;
@@ -293,8 +294,8 @@ body {
     color: #03932b;
 }
 .new-top > img {
-    max-width: 1110px;
-    max-height: 340px;
+    width: 100%;
+    height: 340px;
     border-radius: 19px;
     margin-top: 40px;
     object-fit: cover;
@@ -390,6 +391,9 @@ body {
 /**********| end Transport |***********/
 
 /**********| Contacts |***********/
+.phone{
+    font-weight: 600;
+}
 .contacts-main > img{
     margin-top: 50px;
     width: 360px;
