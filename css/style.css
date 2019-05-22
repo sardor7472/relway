@@ -1,6 +1,6 @@
 @font-face{
     font-family: "RobotoSlab";
-    src : url("../fonts/RobotoSlab/RobotoSlab-Regular.ttf") format('ttf');
+    src : url("../fonts/RobotoSlab-Regular.ttf");
 }
 /************
 **  clear css**
@@ -462,6 +462,11 @@ i
     min-height: 60px;
 
 }
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+}
 .main-nav {
     display: flex;
     color: #fff;
@@ -510,7 +515,6 @@ i
     background: #fff;
     border-radius: 0 0 10px 10px;
     padding: 30px;
-    padding-top: 0;
     min-width: 230px;
     left: 0;
     transition: all 0.3s ease-in-out;
@@ -522,8 +526,7 @@ i
     color: #424242;
     font-weight: 400;
     text-transform: initial;
-    margin-top: 30px;
-    margin-left: 30px;
+    line-height: 36px;
 }
 
 .main-nav-sub-menu li:hover {
@@ -547,8 +550,36 @@ i
 /************
 **  haeder middle **
 *********/
+
+.header-burger {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(50%);
+}
+.header-burger-x {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 12;
+    cursor: pointer;
+}
+.header-burger-x  svg{
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+}
+.header-burger svg path {
+    fill: #fff;
+    cursor: pointer;
+}
 .header-middle {
     position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
 .header-middle-wrap {
     position: relative;

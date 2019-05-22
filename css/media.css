@@ -1,8 +1,7 @@
-
 /*** min-width 1200px */
 /***********************************************************/
 @media screen and (min-width: 1200px) {
-    .toggle-button {
+    .header-burger, .header-burger-x {
         display: none;
     }
 
@@ -33,51 +32,77 @@
 }
 
 
-
-
-
-
 /*** max-width 1199px */
 /***********************************************************/
 @media screen and (max-width: 1199px) {
 
     /*media menu*/
+    .header nav {
+        position: fixed;
+        background: rgba(26, 17, 114, .9);
+        left: 0;
+        flex-direction: column;
+        z-index: 2;
+        width: 100%;
+        padding: 50px;
+        overflow: auto;
+        tab-index: 9;
+        top: 0;
+        height: 100%;
+        justify-content: flex-start;
+        transform: translateX(-100%);
+        transition: all .3s ease-in-out;
+    }
+
+    .header nav.active {
+        transform: translateX(0);
+    }
+
+
     .main-nav {
         flex-direction: column;
+        align-items: center;
     }
+    .main-nav-item {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .main-nav-sub-menu {
+        width: 100%;
+        border-radius: 10px;
+        z-index: 1;
+    }
+
     .header-middle-wrap {
         order: 0;
     }
-    .header-middle {
-        left: 50%;
-        transform: translateX(-50%);
-    }
+
     .main-nav-wrap {
         order: 1;
         text-align: center;
     }
+
     .main-nav-wrap nav {
         display: none;
     }
-    header.active .header-middle-wrap{
+
+    header.active .header-middle-wrap {
         padding-bottom: 250px;
 
     }
+
     header.active .main-nav-wrap nav {
         display: block;
     }
 
     /*media menu*/
-
-
-
-
-
-    .new-footer-text{
+    .new-footer-text {
         padding-right: 0;
         text-align: justify;
     }
-    .new-top-text{
+
+    .new-top-text {
         padding-right: 0;
     }
 
@@ -88,92 +113,117 @@
 /*** max-width 991px */
 /***********************************************************/
 @media screen and (max-width: 991px) {
-    .site-footer .footer .fbody{
+    .site-footer .footer .fbody {
         display: flex;
     }
+
     .tour-img > img {
         width: 100%;
         height: 180px;
         object-fit: cover;
     }
+
     .tour-block {
         width: 100%;
     }
+
     .tour-block + .tour-block {
         margin-top: 30px;
     }
+
     .main-block {
         flex-direction: column;
     }
+
     .site-container__main .main-body .rside {
         width: 100%;
         float: none
     }
+
     .site-container__main .main-body .lside {
         width: 100%;
         float: none;
     }
+
     .main-body {
         display: flex;
         flex-direction: column;
     }
-    .hotel-img > h4{
+
+    .hotel-img > h4 {
         margin-top: 40px;
     }
-    .hotel-text > h3{
+
+    .hotel-text > h3 {
         margin-top: 40px;
     }
-    .container-hotel{
+
+    .container-hotel {
         margin-bottom: 100px;
     }
-    .media-hotels{
+
+    .media-hotels {
         padding-left: 0;
         margin-bottom: 30px;
     }
-    .new-footer{
+
+    .new-footer {
         flex-direction: column;
     }
-    .new-footer-text{
+
+    .new-footer-text {
         padding-right: 0;
         margin-top: 30px;
     }
-    .new-top-text{
+
+    .new-top-text {
         padding-right: 0;
     }
-    .new-img{
+
+    .new-img {
         margin: 0 auto;
     }
-    .tour-main-img{
+
+    .tour-main-img {
         text-align: center;
     }
-    .tour-main-img p{
-        text-align: justify;
-    }
-    .tour-main-img > img{
-        float: none;
-        margin: 0;
-    }
-    .tour-main > h2{
-        text-align: center;
-    }
-    .tarns-title{
-        text-align: center;
-    }
-    .trans-main{
-        flex-direction: column;
-    }
-    .section-text > p{
+
+    .tour-main-img p {
         text-align: justify;
     }
 
-    .tourse-table-dunyo p{
+    .tour-main-img > img {
+        float: none;
+        margin: 0;
     }
-    .tours-txt > h4{
+
+    .tour-main > h2 {
         text-align: center;
     }
-    .trans-main-text > p{
+
+    .tarns-title {
+        text-align: center;
+    }
+
+    .trans-main {
+        flex-direction: column;
+    }
+
+    .section-text > p {
+        text-align: justify;
+    }
+
+    .tourse-table-dunyo p {
+    }
+
+    .tours-txt > h4 {
+        text-align: center;
+    }
+
+    .trans-main-text > p {
         padding-left: 0;
     }
+
     /*max width 991px*/
 
 }
@@ -182,126 +232,159 @@
 /***********************************************************/
 @media screen and (max-width: 767px) {
 
-    .hotels-main > h2{
+    .hotels-main > h2 {
         text-align: center;
     }
-    .media-hotels{
+
+    .media-hotels {
         padding: 0;
         text-align: center;
     }
-    .hotels-text{
+
+    .hotels-text {
         text-align: center;
     }
-    .description{
+
+    .description {
         text-align: justify;
     }
-    .hotel-img{
+
+    .hotel-img {
         text-align: center;
     }
-    .hotel-img > h4{
+
+    .hotel-img > h4 {
         margin-top: 40px;
 
     }
-    .hotel-text > h4{
+
+    .hotel-text > h4 {
         margin-top: 40px;
     }
-    .container-hotel{
+
+    .container-hotel {
         margin-bottom: 100px;
     }
+
     .hotel-text {
         text-align: center;
     }
+
     .hotel-txt {
         text-align: justify;
     }
-    .hotel-btn-wrap{
+
+    .hotel-btn-wrap {
         text-align: center;
     }
 
-    .site-footer .footer .fbottom{
+    .site-footer .footer .fbottom {
         flex-direction: column;
         text-align: center;
     }
-    .fbottom__text{
+
+    .fbottom__text {
         margin-bottom: 15px;
     }
+
     .site-footer .footer .fbody__smm ul {
         display: flex;
         justify-content: center;
     }
+
     .site-footer .footer .fbody__menu ul:last-child {
         margin-right: 0;
     }
-    .fbody{
+
+    .fbody {
         flex-direction: column;
     }
-    .site-footer .footer .fbody__menu{
+
+    .site-footer .footer .fbody__menu {
         justify-content: center;
     }
-    .fbody__smm{
+
+    .fbody__smm {
         text-align: center;
     }
-    .site-footer .footer .fbody__smm div{
+
+    .site-footer .footer .fbody__smm div {
         margin-right: 0;
     }
+
     .par__tit, .news__tit, .rside__about-tit {
         text-align: center;
     }
+
     .site-container__main .main-body .rside .news__body .ac__img {
         width: 320px;
         margin: 0 auto 15px;
     }
+
     .site-container__main .main-body .rside .news__body .ac {
         width: 100%;
         margin-bottom: 30px;
     }
+
     .site-container__main .main-body .rside .news__body .pas {
         width: 100%;
         text-align: center;
     }
+
     .site-container__main .main-body .rside .news__body .pas__body-img {
-        margin: 0 auto 15px ;
+        margin: 0 auto 15px;
     }
+
     .news__body {
         flex-direction: column;
     }
 
-    .contacts-main{
+    .contacts-main {
         flex-direction: column;
     }
-    .container-main >h2 {
+
+    .container-main > h2 {
         text-align: center;
     }
-    .contacts-main > img{
+
+    .contacts-main > img {
         margin: 50px auto;
     }
-    .contacts-text{
+
+    .contacts-text {
         padding: 0;
         margin-top: 0;
         margin: 20px auto;
     }
-    .new-top .new-top-date{
-        text-align: center;
-    }
-    .new-top{
-        text-align: center;
-    }
-    .new-top-text{
-        text-align: justify;
-    }
-    .section-text > h4{
+
+    .new-top .new-top-date {
         text-align: center;
     }
 
-    .section-text{
+    .new-top {
         text-align: center;
     }
-    .gallery-title > h4{
+
+    .new-top-text {
+        text-align: justify;
+    }
+
+    .section-text > h4 {
         text-align: center;
     }
-    .gallery-title > h2{
+
+    .section-text {
         text-align: center;
     }
+
+    .gallery-title > h4 {
+        text-align: center;
+    }
+
+    .gallery-title > h2 {
+        text-align: center;
+    }
+
     /*max width 767px*/
 
 }
@@ -311,78 +394,105 @@
 /***********************************************************/
 @media screen and (max-width: 576px) {
     /*max width 576px*/
-    .section{
+    .section {
         /*padding-left: 0;*/
         /*padding-right: 0;*/
     }
-    .media-hotels{
+
+    .header nav {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .media-hotels {
         padding: 0;
         text-align: center;
     }
-    .hotels-text{
+
+    .hotels-text {
         text-align: center;
     }
-    .contacts-main{
+
+    .contacts-main {
         flex-direction: column;
     }
-    .container-main >h4 {
+
+    .container-main > h4 {
         text-align: center;
     }
-    .contacts-main > img{
+
+    .contacts-main > img {
         margin: 20px auto;
     }
-    .contacts-text{
+
+    .contacts-text {
         padding: 0;
         margin-top: 0;
         margin: 20px auto;
     }
-    .hotel-img > h4{
+
+    .hotel-img > h4 {
         margin-top: 40px;
     }
-    .hotel-text > h4{
+
+    .hotel-text > h4 {
         margin-top: 40px;
     }
-    .container-hotel{
+
+    .container-hotel {
         margin-bottom: 100px;
     }
-    .hotel-img{
+
+    .hotel-img {
         text-align: center;
     }
-    .hotel-text{
+
+    .hotel-text {
         text-align: center;
     }
-    .hotel-txt{
+
+    .hotel-txt {
         text-align: justify;
     }
-    .description{
+
+    .description {
         text-align: justify;
         padding: 0 15px;
     }
-    .hotels-main > h4{
+
+    .hotels-main > h4 {
         text-align: center;
     }
-    .news-main > h2{
+
+    .news-main > h2 {
         text-align: center;
     }
-    .new-top .new-top-date{
+
+    .new-top .new-top-date {
         text-align: center;
     }
-    .new-top{
+
+    .new-top {
         text-align: center;
     }
-    .new-top-text{
+
+    .new-top-text {
         text-align: justify;
     }
-    .gallery-title > h4{
+
+    .gallery-title > h4 {
         text-align: center;
     }
-    .news-main-img{
+
+    .news-main-img {
         text-align: center;
     }
-    .news-text-date{
+
+    .news-text-date {
         text-align: center;
     }
-    .contacts-main > img{
+
+    .contacts-main > img {
         margin: 50px auto;
     }
 }
@@ -391,45 +501,58 @@
 /*** max-width 480px */
 /***********************************************************/
 @media screen and (max-width: 480px) {
-    .contacts-main > img{
+    .contacts-main > img {
         margin: 50px auto;
     }
-    .hotel-img > h4{
+
+    .hotel-img > h4 {
         margin-top: 40px;
     }
-    .hotel-text > h4{
+
+    .hotel-text > h4 {
         margin-top: 40px;
     }
-    .container-hotel{
+
+    .container-hotel {
         margin-bottom: 100px;
     }
-    .hotel-img{
+
+    .hotel-img {
         text-align: center;
     }
-    .hotel-text{
+
+    .hotel-text {
         text-align: center;
     }
-    .hotel-txt{
+
+    .hotel-txt {
         text-align: justify;
     }
-    .icon1{
+
+    .icon1 {
         transform: translateX(250px);
     }
-    .icon2{
+
+    .icon2 {
         transform: translateX(190px);
     }
-    .gallery-title > h4{
+
+    .gallery-title > h4 {
         text-align: center;
     }
-    .news-main-img{
+
+    .news-main-img {
         text-align: center;
     }
-    .news-text-date{
+
+    .news-text-date {
         text-align: center;
     }
-    .icon1{
+
+    .icon1 {
         right: 265px;
     }
+
     /*max width 480px*/
 
 }
