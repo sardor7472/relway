@@ -468,7 +468,6 @@ body {
     background: #fff;
     line-height: 1.25;
     color: #424242;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1,
@@ -478,7 +477,6 @@ h4,
 h5,
 h6 {
     color: #0211bb;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -518,8 +516,13 @@ a {
     color: #ffffff;
 }
 
-a:hover {
+/*a:hover {*/
+    /*text-decoration: none;*/
+/*}*/
+.booking:hover {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
     text-decoration: none;
+
 }
 
 a img {
@@ -963,6 +966,7 @@ a img {
     line-height: 60px;
     overflow: hidden;
     position: relative;
+
 }
 
 .booking:after {
@@ -976,9 +980,7 @@ a img {
     z-index: -1;
 }
 
-.site-header__center .booking:hover span {
-    text-decoration: underline;
-}
+
 
 .booking span {
     font-size: 15px;

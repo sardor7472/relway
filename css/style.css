@@ -13,6 +13,9 @@ ul {
 .footer-bottom{
     margin-bottom: 90px;
 }
+.footer-bottom > h2{
+    margin-top: 40px;
+}
 p {
     margin-bottom: 0;
 }
@@ -34,6 +37,7 @@ h1 {
 
 h2 {
     font-size: 30px;
+    font-family: 'RobotoSlab', sans-serif;
 }
 h3 {
     font-size: 24px;
@@ -92,7 +96,7 @@ body {
     height: 300px;
 }
 .section-text > h2{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .section img{
     margin-top: 40px;
@@ -124,7 +128,7 @@ body {
 .hotel-img > img{
     width: 350px;
     height: 300px;
-    margin-top: 50px ;
+    margin-top: 40px ;
     object-fit: cover;
     border-radius: 19px;
 }
@@ -166,8 +170,8 @@ body {
     padding: 20px 0;
 }
 .hotels-main > h2{
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 .description{
     margin-bottom: 40px;
@@ -242,10 +246,13 @@ body {
     fill: #03932b
 }
 /**********| end News |***********/
-i
+
 /**********|  Tourse |***********/
 .tourse-main{
-    padding-bottom: 160px;
+    margin-bottom: 160px;
+}
+.tourse-txt{
+    margin-top: 40px;
 }
 .tourse-main-dunyo{
     display: flex;
@@ -259,6 +266,10 @@ i
 .tourse-table-dunyo{
     margin-top: 40px;
     position: relative;
+}
+.tourse-table-dunyo > p{
+    font-family: "Proxima Nova";
+    font-size: 18px;
 }
 .tourse-main-dunyo svg path{
     fill: #0539bb
@@ -282,8 +293,8 @@ i
     color: #03932b;
 }
 .new-top > img {
-    width: 1110px;
-    height: 340px;
+    max-width: 1110px;
+    max-height: 340px;
     border-radius: 19px;
     margin-top: 40px;
     object-fit: cover;
@@ -324,6 +335,9 @@ i
     line-height: 25px;
     text-align: justify;
     padding-top: 50px;
+}
+.tour-main > h2{
+    margin-top: 40px;
 }
 .tour-main-img > img{
     width: 484px;
@@ -414,6 +428,9 @@ i
 
 /**********| breadcrumb |***********/
 /**********| Contacts |***********/
+.bread-top{
+    margin-top: 40px;
+}
 .bread-cr {
     display: flex;
     flex-wrap: wrap;
@@ -440,11 +457,13 @@ i
     margin-top: -5px;
     background: url('../img/angle-right-icon.png');
     position: absolute;
-
 }
 
 .bread-cr li + li{
     padding-left: 17px;
+    color: #0211bb;
+    font-family: "Proxima Nova";
+    font-size: 16px;
 }
 /*end breadcrumb*/
 
@@ -616,6 +635,9 @@ i
 /*gallery*/
 .gallery{
     margin-bottom: 90px;
+    margin-top: 40px;
+}
+.gallery-title > h2{
     margin-top: 40px;
 }
 /*end gallery*/
